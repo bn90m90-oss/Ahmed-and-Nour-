@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmed & Nour | 11.11.2027</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Georgia, serif;
+      background: #f7f3f0;
+      color: #334052;
+      text-align: center;
+    }
+
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 30px;
+      background: linear-gradient(135deg, #f7f3f0, #e9eef2, #f4e8e8);
+    }
+
+    .small {
+      font-size: 15px;
+      letter-spacing: 4px;
+      margin-bottom: 25px;
+      color: #8b7b70;
+    }
+
+    h1 {
+      font-size: 48px;
+      letter-spacing: 5px;
+      font-weight: normal;
+      margin-bottom: 15px;
+    }
+
+    .amp {
+      font-size: 30px;
+      color: #b49a6c;
+      margin: 5px 0;
+    }
+
+    .date {
+      font-size: 22px;
+      letter-spacing: 4px;
+      margin: 25px 0 10px;
+    }
+
+    .time {
+      font-size: 17px;
+      color: #777;
+      margin-bottom: 35px;
+    }
+
+    .button {
+      border: 1px solid #b49a6c;
+      background: transparent;
+      color: #334052;
+      padding: 14px 28px;
+      border-radius: 30px;
+      font-family: inherit;
+      font-size: 15px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .button:hover {
+      background: #b49a6c;
+      color: white;
+    }
+
+    .section {
+      padding: 70px 25px;
+      background: #fffaf7;
+    }
+
+    .section h2 {
+      font-size: 30px;
+      font-weight: normal;
+      margin-bottom: 20px;
+    }
+
+    .section p {
+      max-width: 500px;
+      margin: auto;
+      line-height: 1.8;
+      color: #666;
+    }
+
+    .details {
+      margin-top: 35px;
+      line-height: 2;
+      font-size: 17px;
+    }
+
+    footer {
+      padding: 30px;
+      background: #334052;
+      color: white;
+      font-size: 14px;
+      letter-spacing: 2px;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 38px;
+      }
+
+      .date {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <section class="hero">
+    <div class="small">TOGETHER WITH THEIR FAMILIES</div>
+
+    <h1>AHMED</h1>
+    <div class="amp">&</div>
+    <h1>NOUR</h1>
+
+    <div class="date">11 · 11 · 2027</div>
+    <div class="time">4:00 PM</div>
+
+    <button class="button" onclick="document.getElementById('details').scrollIntoView({behavior:'smooth'})">
+      OUR SPECIAL DAY
+    </button>
+  </section>
+
+
+  <section class="section" id="details">
+    <h2>Our Wedding Day</h2>
+
+    <p>
+      With love, happiness and the people we love,
+      we would be honoured to celebrate this beautiful
+      beginning with you.
+    </p>
+
+    <div class="details">
+      <strong>📍 Palestine Hotel</strong><br>
+      Montaza, Alexandria<br><br>
+
+      <strong>🕓 4:00 PM</strong><br>
+      11 November 2027
+    </div>
+  </section>
+
+
+  <section class="section">
+    <h2>Save The Date</h2>
+
+    <p>
+      A new chapter begins,
+      and we can't wait to celebrate it with you.
+    </p>
+  </section>
+
+
+  <footer>
+    AHMED & NOUR · 11.11.2027
+  </footer>
+
+</body>
+</html>
